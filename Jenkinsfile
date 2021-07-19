@@ -1,5 +1,9 @@
 pipeline {
     agent any
+    
+    environment {
+        unique_Id = UUID.randomUUID().toString()
+    }
 
     stages {
         stage('Build') {
