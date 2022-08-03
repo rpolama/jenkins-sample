@@ -6,3 +6,4 @@ sample project for local jenkins setup2
 # open PR commit test
 # open PR commit test 1
 # open PR commit test 2
+# open PR commit test 3
