@@ -19,6 +19,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 snDevOpsChange()
+                echo 'Completed change step...'
                 echo 'Deploying....'
             }
         }
