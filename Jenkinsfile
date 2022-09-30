@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+                echo 'Building...'
             }
         }
         stage('Test') {
@@ -18,7 +18,8 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                //snDevOpsChange()
+                snDevOpsChange()
+                echo 'Completed change step...'
                 echo 'Deploying....'
             }
         }
